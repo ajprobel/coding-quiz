@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+ --primary-color: rgb(230, 230, 230);
+ --secondary-color: rgb(54, 78, 54);
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: var(--primary-color);
+}
+
+header,
+header h1 {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    margin: 0px;
+    padding: 0px;
+    line-height: 4rem;
+    text-align: center;
+    font-size: 40px;
+}
+
+div {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+#info {
+    margin-bottom: 15px;
+}
+
+#viewHighScore {
+    text-decoration: underline;
+}
+
+#viewHighScore:hover {
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+#welcome {
+    text-align: center;
+    margin: 20px 50px 50px 50px;
+}
+
+#quiz {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: 25px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    line-height: 30px;
+    padding: 8px 100px 8px 40px;
+    margin: 15px;
+    border-radius: 4px;
+    background-color: var(--secondary-color);
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.answer:hover {
+    cursor: pointer;
+    background-color: darkgreen;
+    box-shadow: 2px 2px 3px grey;
+}
+
+.answer::selection {
+    background-color:aquamarine;
+    box-shadow: 2px 2px grey;
+}
+
+.hidden {
+    display: none;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>JP Code Quiz!</title>
+</head>
+<body>
+    <header>
+        <h1>Coding Quiz</h1>
+    </header>
+
+    <div id="info">
+        <h3><span id="viewHighScore">View High Scores</span></h3>
+        <h3>Time Remaining: <span id="time">60</span></h3>
+    </div>
+
+    <section id="welcome">
+        <h2>Welcome to JP's JavaScript Coding Quiz!</h2>
+        <p>Press the "start" button to start the quiz. You will be presented with multiple-choice format questions to answer within the time limit above. See how well you can do!</p>
+    </section>
+
+    <div>
+        <button class="btn" id="start-btn">Start Quiz</button>
+    </div>
+
+    <section id="quiz">
+        <h2 class="hidden" id="question">This is where the question will go. What will be the answer?</h2>
+        <ul  class="hidden" id="answerList">
+            <li class="answer" id="answer1">Answer 1</li>
+            <li class="answer" id="answer2">Answer 2</li>
+            <li class="answer" id="answer3">Answer 3</li>
+            <li class="answer" id="answer4">Answer 4</li>
+        </ul>
+    </section>
+
+    <section id="nameInput">
+        <form class="hidden">
+            <input placeholder="name" id="name" />
+            <button id="submit">Submit</button>
+        </form>
+        </section>
+
+
+
+    <script src="./assets/script.js"></script>
+</body>
+</html>
