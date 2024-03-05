@@ -2,14 +2,11 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+Coding assessments are a common practice in the world of programming; whether it be for school or applying to a job. To help my knowledge of HTML, CSS, JavaScript, and Web APIs, and to help aspiring web developers, I've made a timed code assessment!
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+While there are a lot of coding assessments that feature interactive coding portions, this page is more of "Coding Quiz" with multiple-choice formatted questions. Be careful - be mindful of the timer!
 
-
+While completing this project, I learned a lot about manipulating HTML elements through JavaScript. A lot of elements for the quiz aren't rendered on the page until specific parts; this was all done using DOM manipulation.
 
 ## Installation
 
@@ -39,9 +36,9 @@ Enter your name and submit to have your name and score saved in local storage!
 Designed and created by me, James Probel, with guidelines from the UNC Chapel Hill Programming Bootcamp.
 
 Thank you to MDN Web Docs for providing guidelines on query selectors, event listeners, appending/removing elements, and helping to provide wording on the questions on the quiz (using their definitions)
-https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll
-https://developer.mozilla.org/en-US/docs/Web/API/EventTarget
-https://developer.mozilla.org/en-US/docs/Web/API/Element/remove
+* https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll
+* https://developer.mozilla.org/en-US/docs/Web/API/EventTarget
+* https://developer.mozilla.org/en-US/docs/Web/API/Element/remove
 
 
 
